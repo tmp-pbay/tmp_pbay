@@ -26,9 +26,6 @@ ela = []
 
 extensions = []
 
-with open('README.md', 'r') as f:
-    readme = f.read()
-
 setup(name         = "pyratbay",
       version      = __version__,
       author       = "Patricio Cubillos",
@@ -46,7 +43,6 @@ setup(name         = "pyratbay",
           ],
       license      = "GNU GPLv2",
       description  = "Python Radiative Transfer in a Bayesian Framework.",
-      long_description=readme,
       long_description_content_type="text/markdown",
       include_dirs = inc,
       #entry_points={"console_scripts": ['pbay = pyratbay.__main__:main']},
