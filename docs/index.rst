@@ -39,6 +39,12 @@ Pyrat Bay:
 :Web Site:     https://github.com/pcubillos/pyratbay
 :Date:         |today|
 
+
+.. warning:: Note that this is a **temporary** (although current) version
+     of the documentation.  **The ``pyratbay`` code is not yet avaliable**,
+     it will be relased upon peer-review acceptance.
+
+
 Features
 ========
 
